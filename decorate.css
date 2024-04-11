@@ -1,0 +1,236 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body {
+    margin:0 !important;
+    padding:0 !important;
+    overflow-y:auto
+}
+div.navbar{
+    display:fixed;
+    height:95px;
+    background-color:#150447;
+    display: flex;
+}
+div.name{
+ display:inline-block;
+ color: white;
+ font-size: 25px;
+ font-family: roboto;
+ height:20px;
+ position:fixed;
+ top:5px;
+ left:120px;
+ font-weight: bolder;
+}
+img.logo{
+   border-radius:50px; 
+}
+div.logo1{
+    position:fixed;
+    left:25px;
+    top:5px;
+}
+div.campus{
+    color:white;
+    font-family: roboto;
+    font-size: 17px;
+    position: fixed;
+    top: 29px;
+    left: 120px;
+}
+div.affiliation{
+    color:white;
+    font-style: italic;
+    position:fixed;
+    top: 49px;
+    left:120px;
+    font-size:16px;
+    word-spacing: 1px;
+}
+div.recog{
+    color:white;
+    font-style: italic;
+    position:fixed;
+    top: 70px;
+    left:120px;
+    font-size:16px;
+    word-spacing: 2px;
+}
+span.contact{
+    position: fixed;
+    top: 5px;
+    right: 220px;
+    background-color: #0584EB;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    border-radius: 4px;
+    height:40px;
+    width: 290px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom:2px;
+    line-height: normal;
+}
+.fa{
+    text-align: center;
+    padding-top:8px;
+    height:26px;
+    width: 26px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  position:fixed;
+  right:120px;
+  top:5px;
+} 
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    position:fixed;
+    right:80px;
+    top:5px; 
+}
+.fa-linkedin {
+    background: #bb0000;
+    color: white;
+    position:fixed;
+    right:40px;
+    top:5px;
+  }
+  div.helpline{
+    position:fixed;
+    left:850px;
+    top:65px;
+    padding:3px;
+    background-color: #ff0000;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    word-spacing: 5px;
+  }
+   .dropdown{
+    background-color: #00baff;
+  }
+  .dropbtn {
+    background-color: #00baff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    padding-bottom:30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    height:40px;
+    width:auto;
+  }
+  .dropbtn:hover{
+    background-color: #2c1964;
+  }
+  /*.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    box-shadow: none;
+  }
+  .dropdown-content a {
+    background-color: #00baff;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:none;
+}
+.dropdown-content a:hover {background-color: #2c1964;}
+.dropdown:hover .dropdown-content {display: block;}*/
+div.picture{
+    position:fixed;
+    top:140px;
+    height: 400px;
+    width: 100%;
+    animation-name: slider;
+    animation-duration: 10s;
+    background-size: cover;
+    animation-timing-function:  linear infinite;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slider {
+  0%{background-image: url("Slider6.jpg")}
+  25%{background-image: url("5R7A6319.jpg")}
+  50%{background-image: url("5R7A6276.jpg")}
+  75%{background-image: url("5R7A6342.jpg")}
+  100%{background-image: url("Slider6.jpg")}
+}
+div.marq{
+  position:fixed;
+  top:540px;
+  padding-top:4px;
+  padding-bottom: none;
+  background-color: #77000d;
+height:34px;
+width:100%;
+}
+marquee.scroll{
+  font-size: 16px;
+  font-weight: bolder;
+  word-spacing: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#ffffff;
+}
+div.touch{
+  position:fixed;
+  right: 8px;
+  top:150px;
+  height:370px;
+  width:250px;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(2px);
+  border-radius: 4px;
+  padding-top:15px;
+  padding-right: none;
+  padding-left:20px;
+}
+p.head{
+  color:#ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+input.box{
+  height:30px;
+  width:230px;
+}
+select.select{
+  height:35px;
+  width:235px;
+}
+button.submit{
+  background-color:#ff0000;
+  color:white;
+  border:none;
+  height:30px;
+  width:230px;
+}
+div.aboutus{
+  position:fixed;
+  top:579px;
+  height: 100px;
+  width:100%;
+  background-color: #4ca5e9;
+  padding:10px;
+}
+p.name{
+  font-size: 20px;
+  color:#ffffff;
+  font-family: sans-serif;
+}
+p.description{
+  color:#ffffff;
+  font-family: serif;
+}
