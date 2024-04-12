@@ -3,15 +3,14 @@
     margin:0px;
 }
 body {
-    margin:0 !important;
-    padding:0 !important;
-    overflow-y:auto
+    margin:0;
+    padding:0;
+    overflow-y:scroll;
 }
 div.navbar{
     display:fixed;
     height:95px;
     background-color:#150447;
-    display: flex;
 }
 div.name{
  display:inline-block;
@@ -151,7 +150,7 @@ div.picture{
     position:fixed;
     top:140px;
     height: 400px;
-    width: 100%;
+    width: 99%;
     animation-name: slider;
     animation-duration: 10s;
     background-size: cover;
