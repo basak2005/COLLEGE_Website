@@ -3,64 +3,70 @@
     margin:0px;
     border: border-box;
 }
-body {
-  overflow:hidden;
-    height:100%;
+form.main{
+ overflow-x: hidden; 
 }
 div.navbar{
-    display:fixed;
-    height:95px;
+  position: relative;
+    height:100px;
     background-color:#150447;
 }
 div.name{
- display:inline-block;
  color: white;
  font-size: 25px;
  font-family: roboto;
  height:20px;
- position:fixed;
- top:5px;
- left:120px;
+ position:relative;
+ left:20px;
  font-weight: bolder;
 }
 img.logo{
    border-radius:50px; 
 }
 div.logo1{
-    position:fixed;
+  display: inline-block;
+    position:relative;
     left:25px;
     top:5px;
 }
 div.campus{
+  position:relative;
     color:white;
     font-family: roboto;
     font-size: 17px;
-    position: fixed;
-    top: 29px;
-    left: 120px;
+    top: 8px;
+    left: 20px;
 }
 div.affiliation{
     color:white;
     font-style: italic;
-    position:fixed;
-    top: 49px;
-    left:120px;
+    position:relative;
+    top: 10px;
+    left:20px;
     font-size:16px;
     word-spacing: 1px;
 }
 div.recog{
     color:white;
     font-style: italic;
-    position:fixed;
-    top: 70px;
-    left:120px;
+    position:relative;
+    top: 13px;
+    left:20px;
     font-size:16px;
     word-spacing: 2px;
 }
+div.all{
+  margin-left:20px;
+  position:relative;
+  display: inline-block;
+  height: 90px;
+  width: 670px;
+
+}
 span.contact{
-    position: fixed;
-    top: 5px;
-    right: 220px;
+    position: absolute;
+    top: 0px;
+    right: 140px;
     background-color: #0584EB;
     color: white;
     font-size: 17px;
@@ -74,6 +80,7 @@ span.contact{
     line-height: normal;
 }
 .fa{
+  position: absolute;
     text-align: center;
     padding-top:8px;
     height:26px;
@@ -83,30 +90,31 @@ span.contact{
   }
   
 .fa-facebook {
+  position: absolute;
   background: #3B5998;
   color: white;
-  position:fixed;
-  right:120px;
+  right:100px;
   top:5px;
 } 
 .fa-youtube {
+  position: absolute;
     background: #bb0000;
     color: white;
-    position:fixed;
-    right:80px;
+    right:60px;
     top:5px; 
 }
 .fa-linkedin {
+  position: absolute;
     background: #bb0000;
     color: white;
-    position:fixed;
-    right:40px;
+    right:20px;
     top:5px;
   }
   div.helpline{
-    position:fixed;
-    left:850px;
-    top:65px;
+    display: inline-block;
+    position:absolute;
+    right:10px;
+    top:70px;
     padding:3px;
     background-color: #ff0000;
     color:white;
@@ -170,8 +178,8 @@ span.contact{
   }
   
 div.picture{
-    position:fixed;
-    top:135px;
+    position:relative;
+    top:0px;
     height: 399px;
     width: 100%;
     animation-name: slider;
@@ -189,8 +197,7 @@ div.picture{
   100%{background-image: url("Slider6.jpg")}
 }
 div.marq{
-  position:fixed;
-  top:534px;
+  position:relative;
   padding-top:4px;
   padding-bottom: none;
   background-color: #77000d;
@@ -205,11 +212,11 @@ marquee.scroll{
   color:#ffffff;
 }
 div.touch{
-  position:fixed;
+  position:absolute;
   right: 8px;
-  top:150px;
+  top:10px;
   height:370px;
-  width:250px;
+  width:280px;
   background-color: rgba(0,0,0,0.5);
   backdrop-filter: blur(2px);
   border-radius: 4px;
@@ -225,22 +232,21 @@ p.head{
 }
 input.box{
   height:30px;
-  width:230px;
+  width:270px;
 }
 select.select{
   height:35px;
-  width:235px;
+  width:270px;
 }
 button.submit{
   background-color:#ff0000;
   color:white;
   border:none;
   height:30px;
-  width:230px;
+  width:270px;
 }
 div.aboutus{
-  position:fixed;
-  top:573px;
+  position:relative;
   height: 100px;
   width:100%;
   background-color: #4ca5e9;
