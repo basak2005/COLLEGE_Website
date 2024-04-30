@@ -320,17 +320,35 @@ div.founder{
   top:70px;
   left:129px;
   background-color: white;
-  height:300px;
+  height:320px;
   width:350px;
 }
+
 div.vision{
   display: inline-block;
   position:absolute;
   top:70px;
   right:485px;
   background-color: white;
-  height:300px;
+  height:320px;
   width:350px;
+}
+div.vision1{
+  position: relative;
+  top:0px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color:#4ca5e9;
+  margin-left:17px;
+  padding-bottom: 30px;
+  margin-top:10px;
+}
+p.vision2{
+  padding-left: 9px;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-bottom:10px;
+  line-height: 30px;
 }
 div.mission{
   display: inline-block;
@@ -338,7 +356,7 @@ div.mission{
   top:70px;
   right:100px;
   background-color: white;
-  height:290px;
+  height:310px;
   width:350px;
   padding-top:9px;
   padding-left:9px;
